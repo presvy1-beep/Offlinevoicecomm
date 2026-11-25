@@ -18,6 +18,14 @@ Microphone → PCM samples → ggwave decoder → text → local history
 
 Two nearby devices can communicate through their speakers and microphones. Open ECHO on both devices, grant microphone permission, start listening, enter a message on one device, and tap Send. Start with Audible mode and moderate volume. The [ggwave Waver website](https://waver.ggerganov.com/) can be used as a compatible endpoint when its protocol settings match ECHO's audible mode. Local playback completion does not guarantee that another device received the message.
 
+## Demo screenshots
+
+The same exchange appears in ECHO and the ggwave Waver demo.
+
+| ECHO on Android | Waver in a browser |
+| --- | --- |
+| ![ECHO conversation showing a sent message and a received reply](Docs/screenshots/echo-conversation.jpeg) | ![Waver message log showing the matching acoustic exchange](Docs/screenshots/waver-exchange.png) |
+
 ## Download and install
 
 Download [ECHO.apk](https://github.com/presvy1-beep/Offlinevoicecomm/releases/download/v1.0.0/ECHO.apk) from the [v1.0.0 release](https://github.com/presvy1-beep/Offlinevoicecomm/releases/tag/v1.0.0). Install it on an Android ARM64 device, allow installation from your chosen source if Android asks, then grant microphone permission. The package identifier is `com.echo.acoustic`.
