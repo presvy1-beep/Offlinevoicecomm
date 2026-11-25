@@ -35,3 +35,4 @@
 *.pfx
 .env
 .env.*
+/.utmp/
